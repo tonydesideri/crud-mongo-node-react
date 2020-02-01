@@ -1,6 +1,6 @@
 # VIRTUAL CURSO
 
-Uma simples CRUD de uma de cursos em uma loja virtual, pode ser feito todos os processos de um cadastro, editar curso, deletar.
+Uma CRUD de uma loja virtual de cursos, onde pode ser feito todos os processos de um cadastro, editar curso, deletar.
 
 O projeto foi desenvolvido com as tecnologias mais atuais como NodeJs e ReactJs, no final da página pode-se observar todas a tecnologias
 utilizadas, bem como algumas das dependências mais importantes. O projeto não tem grande complexidade de código, mas resolve o problema
