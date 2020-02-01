@@ -10,10 +10,9 @@ proposto de uma CRUD.
 
 Digite os seguintes códigos para importar o projeto e em sua máquina
 
-`` ``
-git init
-git clone https://github.com/tonydesideri/crud-virtualcurso.git
-`` ``
+`` git init``
+
+``git clone https://github.com/tonydesideri/crud-virtualcurso.git ``
 
 
 ### Pré-requisitos
@@ -34,27 +33,20 @@ Siga os seguintes passos que a aplicação irá rodar em sua máquina local:
 3 - Instale as dependências do projeto
 
 Utilizando o Yarn
-`` ``
-yarn ou yarn install
-`` ``
+
+``yarn ou yarn install``
 
 Utilizando o NPM
 
-`` ``
-npm install
-`` ``
+``npm install``
 
 NOTA: A dependência "nodemon" foi instalada como uma dependência de desenvolvimento, caso seja necessário instale-a
 
-`` ``
-yarn add nodemon -D
-`` ``
+``yarn add nodemon -D ``
 
 4 - Execute o comendo a seguir para colocar o projeto BACKEND rodando na porta 3000
 
-`` ``
-yarn dev
-`` ``
+``yarn dev``
 
 Com o projeto BACKEND rodando passamos para o FRONTEND
 
@@ -63,21 +55,17 @@ Com o projeto BACKEND rodando passamos para o FRONTEND
 3 - Instale as dependências
 
 Utilizando o Yarn
-`` ``
-yarn ou yarn install
-`` ``
+
+``yarn ou yarn install``
 
 Utilizando o NPM
 
-`` ``
-npm install
-`` ``
+``npm install ``
 
 4 - Rode o comando a seguir para rodar a aplicação FRONTEND em seu navegador
 
-`` ``
-yarn start
-`` ``
+``yarn start ``
+
 Com isso já deve ser possível testar a aplicação
 
 ## Construído com
