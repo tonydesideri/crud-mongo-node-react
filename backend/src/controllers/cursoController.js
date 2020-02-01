@@ -18,7 +18,7 @@ module.exports = {
 
     const { page } = req.query
 
-    const listarCursos = await Curso.paginate({}, { page, limit: 4})
+    const listarCursos = await Curso.paginate({}, {  limit: 4, page})
     
     return res.json(listarCursos)
   
@@ -35,8 +35,6 @@ module.exports = {
 
   //Editar curso
   async update(req, res) {
-    
-    const {nome, linguagem, descricao, valor, aulas} = req.body
 
     const atualizarCurso = await Curso.findByIdAndUpdate(
       req.params.id, 

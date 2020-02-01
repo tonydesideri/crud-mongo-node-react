@@ -1,0 +1,83 @@
+.selectAll {
+  margin: 20px auto 0;
+  padding: 0 20px;
+  max-width: 400px;
+}
+
+.selectAll  article a {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #fff; 
+  background: #4B0082 ; 
+  margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selectAll  a {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #fff; 
+  background: #008000 ; 
+  margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectAll a:hover {
+  border: 1px solid #008000; 
+  color: #008000 ;
+  background: #fff ;
+}
+
+
+.selectAll article {
+  background: #fff;
+  border: 1px solid #4B0082;
+  border-radius: 5px;
+  padding: 10px;
+  padding-bottom: 0%;
+  margin-bottom: 20px;
+
+}
+
+.selectAll p {
+  font-size: 14px;
+  color:#1C1C1C ;
+  margin-top: 5px;
+  line-height: 25px;
+}
+
+
+.selectAll  article a:hover {
+  border: 1px solid #4B0082; 
+  color: #4B0082 ;
+  background: #fff ;
+}
+
+.selectAll  .actions {
+  margin-bottom: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.selectAll  .actions button {
+  padding: 10px;
+  border-radius: 5px;
+  background: #4B0082 ;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+
