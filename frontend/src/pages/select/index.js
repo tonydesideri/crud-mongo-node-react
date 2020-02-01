@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import './styles.css'
 
 
-export default class Cursos extends Component {
+export default class Select extends Component {
 
   state = {
     cursos:[],
