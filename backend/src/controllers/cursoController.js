@@ -37,10 +37,13 @@ module.exports = {
   async update(req, res) {
 
     const atualizarCurso = await Curso.findByIdAndUpdate(
-      req.params.id, 
-      req.body,
-      { new: true}
-    )
+      req.params.id, { $set: {
+        nome: req.body.nome,
+        linguagem: req.body.linguagem,
+        descricao: req.body.descricao,
+        valor: req.body.valor,
+        aulas:  req.body.aulas
+    }}, { new: true})
 
     return res.json(atualizarCurso)
     
