@@ -40,10 +40,9 @@ export default class SelectOne extends Component {
         <p>Aulas: {curso.aulas}</p>
         <br/>
 
-        <Link to="/">Inicio</Link>
-        <Link to="/update">Editar</Link>
-        <Link to="/delete">Deletar</Link>
-
+        <Link to={`/`}>Inicio</Link>
+        <Link to={`/update/${curso._id}`}>Editar</Link>
+        <Link to={`/delete/${curso._id}`}>Deletar</Link>
       </div>
     )
   }
