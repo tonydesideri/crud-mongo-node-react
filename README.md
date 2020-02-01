@@ -17,11 +17,11 @@ Digite os seguintes códigos para importar o projeto e em sua máquina
 
 ### Pré-requisitos
 
-- As portas locais (3000 e 3001) dem estar liberadas para que os serviços rodem
+- As portas locais (3000 e 3001) demvem estar liberadas para que os serviços rodem
   - 3000: Irá rodar o frontend
   - 3001: Irá rodar o backend
 
-- O banco de dados está hospedado na nuvem(MongoDB Atlas )e não há a necessidade de se preocupar com a instalção do mesmo
+- O banco de dados está hospedado na nuvem(MongoDB Atlas )e não há a necessidade de se preocupar com a instalação do mesmo
 
 ### Instalando
 
