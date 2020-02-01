@@ -5,6 +5,7 @@ import Select from './pages/select'
 import SelectOn from './pages/selectone'
 import Insert from './pages/insert'
 import Update from './pages/update'
+import Delete from './pages/delete'
 
 const Router = () => (
   <BrowserRouter>
@@ -14,6 +15,7 @@ const Router = () => (
       <Route  path="/cursos/:id" component={SelectOn}/>
       <Route  path="/insert" component={Insert}/>
       <Route  path="/update/:id" component={Update}/>
+      <Route  path="/delete/:id" component={Delete}/>
 
     </Switch>
   </BrowserRouter>
